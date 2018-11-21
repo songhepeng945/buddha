@@ -1,0 +1,21 @@
+{
+  "name": "buddha/swoole",
+  "description": "test swoole server",
+  "minimum-stability": "dev",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "94shp",
+      "email": "1014786263@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "buddha\\server\\": "src/server"
+    }
+  }
+}
